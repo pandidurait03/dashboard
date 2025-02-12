@@ -1,0 +1,8 @@
+.main-container {
+    background-color: var(--main-backgorund);
+    width: calc(100%-70px);
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 63px;
+    padding-top: 10px;
+}

@@ -1,0 +1,26 @@
+.calander-wrapper {
+    background-color: var(--white-background);
+    padding: 5px;
+}
+  
+.primary-calendar-form {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    width: 180px;
+    border-radius: 4px;
+}
+  
+.primary-form-container {
+    align-items: center;
+}
+  
+.primary-button {
+    background-color: var(--primary-blue);
+    color: var(--white-background);
+    border-radius: 4px;
+    border: none;
+    font-size: 12px;
+    padding: 8px;
+    margin-left: 5px;
+}

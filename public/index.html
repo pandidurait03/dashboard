@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Title -->
+        <title>Dashboard Page</title>
+        <!-- css -->
+        <link rel="stylesheet" href="/src/styles/style.css">
+        <!-- favicon -->
+        <link rel="icon" href="/src/assets/images/logo/favicon-logo.svg">
+        <!-- ICON-IMPORT -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <!-- sidebar -->
+            <aside class="side-container content-bg">  
+                <div class="logo-container dis-flex" id="logo-container">
+                    <div class="collapse-logo-wrapper">
+                        <img src="/src/assets/images/logo/collapse-brand-logo.png" alt="brand-logo" id="collapse-logo" class="collapse-logo">
+                    </div>
+                    <div class="expand-logo-wrapper">
+                        <img src="/src/assets/images/logo/Brand-logo.png" alt="" class="expand-logo">
+                    </div>
+                </div>
+                <div class="side-nav-container" id="side-nav-container">
+                    <nav class="side-nav-bar" id="side-nav-bar">
+                        <ul class="side-nav-list-container ">
+                            <li class="side-nav-list-item text-capitalize">
+                                <i class='bx bx-radio-circle'></i>
+                                <span class="nav-category-name">dashboards</span>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover  hover-active hover-side-nav-teritory-dropdown" tabindex="0">
+                                <a href="#" class="side-nav-list-link hover-active-text">
+                                    <i class='bx bx-home-alt'></i>
+                                    <span class="side-nav-text">Dashboard</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <ul class="side-nav-teritory-dropdown content-bg">
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">sales</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">analytics</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">ecommerce</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">CRM</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">crypto</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">projects</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">medical</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">podcast</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">school</a></li>
+                                <li class="side-nav-teritory-dropdown-item"><a href="" class="side-nav-teritory-dropdown-link">social media</a></li>
+                            </ul>
+                            <li class="side-nav-list-item text-capitalize">
+                                <i class='bx bx-radio-circle'></i>
+                                <span class="nav-category-name">web apps</span>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover hover-side-nav-primary-dropdown" tabindex="0">
+                                <a href="#"  class="side-nav-list-link ">
+                                    <i class='bx bx-grid-alt'></i>
+                                    <span class="side-nav-text">apps</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <ul class="side-nav-primary-dropdown content-bg">
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">full calender</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">gallery</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">sweet alerts</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">ecommerce</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">projects</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">tasks</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">jobs</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">NFT</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">CRM</a></li>
+                                <li class="side-nav-primary-dropdown-item"><a href="" class="side-nav-primary-dropdown-link">crypto</a></li>
+                            </ul>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-layer'></i>
+                                    <span class="side-nav-text">nested menu</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize">
+                                <i class='bx bx-radio-circle'></i>
+                                <span class="nav-category-name">crafted</span>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-lock'></i>
+                                    <span class="side-nav-text">authentication</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-error-circle'></i>
+                                    <span class="side-nav-text">error</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover hover-side-nav-secondary-dropdown" tabindex="0">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-book' ></i>
+                                    <span class="side-nav-text">pages</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <ul class="side-nav-secondary-dropdown content-bg">
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">blogs</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">chat</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">email</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">empty</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">FAQ</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">file manager</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">invoice pricing</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">profile</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">profile setting</a></li>
+                                <li class="side-nav-secondary-dropdown-item"><a href="" class="side-nav-secondary-dropdown-link">landing page</a></li>
+                            </ul>
+                            <li class="side-nav-list-item text-capitalize">
+                                <i class='bx bx-radio-circle'></i>
+                                <span class="nav-category-name">module</span>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-id-card'></i>
+                                    <span class="side-nav-text">forms</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                                
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-box'></i>
+                                    <span class="side-nav-text">ui elements</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-party' ></i>
+                                    <span class="side-nav-text">advanced ui</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-award' ></i>
+                                    <span class="side-nav-text">utilites</span>
+                                   <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-gift' ></i>
+                                    <span class="side-nav-text">widgets</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize">
+                                <i class='bx bx-radio-circle'></i>
+                                <span class="nav-category-name">tool & components</span>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-compass' ></i>
+                                    <span class="side-nav-text">maps</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-store-alt'></i>
+                                    <span class="side-nav-text">icons</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-line-chart'></i>
+                                    <span class="side-nav-text">charts</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                            <li class="side-nav-list-item text-capitalize side-hover">
+                                <a href="#"  class="side-nav-list-link">
+                                    <i class='bx bx-table'></i>
+                                    <span class="side-nav-text">tables</span>
+                                    <i class='bx bxs-chevron-right'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+            <!-- header -->
+            <header class="header-container dis-flex" id="header-container">
+                <div class="toggle-br">
+                    <a href="#" class="focus-side-nav">
+                        <i class='bx bx-x'></i>
+                    </a>
+                </div>
+                <ul class="nav-list-container dis-flex">
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-search bx-nav'></i>
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-planet bx-nav'></i>
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-moon bx-nav'></i>
+                        </a>
+                    </li>
+                    <li class="nav-list-item cart">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-shopping-bag bx-nav'></i>
+                        </a>
+                    </li>
+                    <li class="nav-list-item notification">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-bell bx-tada bx-nav' ></i> 
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-fullscreen bx-nav'></i>
+                        </a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link login-text">
+                            <img class="login-avatar" src="/src/assets/images/logo/login-logo.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-list-item avatar-name">
+                        <a href="#" class="nav-list-link login-name">Mr.jack</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">
+                            <i class='bx bx-cog bx-spin'></i>
+                        </a>
+                    </li>
+                </ul>  
+            </header>
+        </div>
+            <!-- Row pagination -->
+        <main class="main-container">
+            <!-- greeting container-->
+            <section class="primary-content-container dis-flex">
+                <div class="greeting-text-container">
+                    <p class="primary-greeting-text">
+                        welcome back, jack miller
+
+                    </p>
+                    <p class="secondary-greeting-text">
+                        let's dive in and get things done
+                    </p>
+                </div>
+                <div class="primary-form-container dis-flex">
+                    <div class="calander-wrapper dis-flex">
+                        <div class="calender-icon-wrapper">
+                            <i class='bx bx-calendar-week'></i>
+                        </div>
+                        <input type="text" class="primary-calendar-form" value="Oct, 05 2024 to Oct, 15 2024">
+                    </div>
+                    <button class="primary-button">
+                        <i class='bx bx-upload' ></i>
+                        export report
+                    </button>
+                </div>
+            </section>
+            <!-- chart row-one -->
+            <section class="secondary-content-container dis-flex">
+                <div class="secondary-container-card-one">
+                    <div class="card-one-row-one dis-flex">
+                        <div class="card-one-row-one-box-one">
+                            <span class="box-one-name">total sales</span>
+                            <h3 class="box-one-number">32,981</h3>
+                        </div>
+                        <div class="bag-icon-card-one primary-blue">
+                            <i class='bx bxs-shopping-bag-alt '></i>
+                        </div>
+                    </div>
+                    <div class="card-one-row-two dis-flex">
+                        <a href="#" class="box-one-link">View all Sales</a>
+                        <div class="box-one-percent">
+                            <i class='bx bx-up-arrow-alt bx-arrow'></i>
+                            <span class="percent-span"> 0.29%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-container-card-one">
+                    <div class="card-one-row-one dis-flex">
+                        <div class="card-one-row-one-box-two">
+                            <span class="box-one-name">total revenue</span>
+                            <h3 class="box-one-number">$14,32145</h3>
+                        </div>
+                        <div class="bag-icon-card-one primary-orange">
+                            <i class='bx bx-dollar' undefined ></i>
+                        </div>
+                    </div>
+                    <div class="card-one-row-two dis-flex">
+                        <a href="#" class="box-one-link ">complete revenue</a>
+                        <div class="box-one-percent red-percent">
+                            <i class='bx bx-up-arrow-alt bx-arrow'></i>
+                            <span> 3.45%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-container-card-one">
+                    <div class="card-one-row-one dis-flex">
+                        <div class="card-one-row-one-box-three">
+                            <span class="box-one-name">page views</span>
+                            <h3 class="box-one-number">4,678</h3>
+                        </div>
+                        <div class="bag-icon-card-one pimary-green">
+                            <i class='bx bx-user'></i>
+                         </div>
+                    </div>
+                    <div class="card-one-row-two dis-flex">
+                        <a href="#" class="box-one-link">Total page views</a>
+                        <div class="box-one-percent">
+                            <i class='bx bx-up-arrow-alt bx-arrow'></i>
+                            <span> 11.54%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-container-card-one">
+                    <div class="card-one-row-one dis-flex">
+                        <div class="card-one-row-one-box-three">
+                            <span class="box-one-name">profit by sales</span>
+                            <h3 class="box-one-number">$645</h3>
+                        </div>
+                      <div class="bag-icon-card-one secondary-blue">
+                        <i class='bx bx-folder'></i>
+                      </div>
+                    </div>
+                    <div class="card-one-row-two dis-flex">
+                        <a href="#" class="box-one-link">Total profits earned</a>
+                        <div class="box-one-percent">
+                            <i class='bx bx-up-arrow-alt bx-arrow'></i>
+                            <span> 11.54%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- chart row-two -->
+            <section class="card-one-row-two dis-flex">
+                <div class="card-one-row-one-container">
+                    <div class="card-one-row-two-up dis-flex">
+                        <div class="card-one-row-two-up-left">visitors report</div>
+                        <div class="card-one-row-two-up-right">sort by <i class='bx bxs-chevron-down'></i></div>
+                    </div>
+                    <!-- <div class="card-one-row-two-up-dropdown">
+                            <span>this week</span> <br>
+                            <span>last month</span> <br>
+                            <span>this month</span>
+                        </div> -->
+                    <div class="card-one-row-two-middle dis-flex">
+                        <div class="card-one-row-two-middle-left">
+                            <h6 class="row-two-middle-name">This week</h6>
+                            <h3 class="card-one-row-two-name">14642 <span class="card-one-row-two-left-span primary-green">0.64% <i class='bx bx-chevron-up'></i></span></h3>
+                        </div>
+                        <div class="card-one-row-two-middle-right">
+                            <h6 class="row-two-middle-name">Last week</h6>
+                            <h3 class="card-one-row-two-name">14642 <span class="card-one-row-two-right-span primary-red">5.31% <i class='bx bxs-chevron-down'></i></span>
+                        </div>
+                    </div>
+                    <div class="chart-one-container">
+                        <img src="/src/assets/images/chart-images/chart-one.png" alt="chart one" class="chart-one">
+                    </div>
+                </div>
+                <div class="card-two-row-one-container">
+                    <div class="card-one-row-two-up dis-flex">
+                        <div class="card-one-row-two-up-left">order statics</div>
+                        <div class="row-two-primary-btn-container dis-flex">
+                           <div class="row-two-primary-btn-items">
+                                <button class="row-two-primary-btn " style="background-color: rgb(130, 111, 255); color: #fff;">day</button>
+                                <button class="row-two-primary-btn">week</button>
+                                <button class="row-two-primary-btn">month</button>
+                                <button class="row-two-primary-btn">year</button>
+                            </div>
+                            <div class="row-two-secondary-btn-items">
+                                <button class="card-two-secondary-btn">export<i class='bx bx-share bx-flip-horizontal' ></i></button>
+                            </div>
+                        </div>
+                       
+
+                    </div>
+                    <div class="chart-two-image-container">
+                        <img src="/src/assets/images/chart-images/chart--two.png" alt="" class="chart-two-image">
+                    </div>
+
+                </div>
+            </section>
+            <!-- chart row three -->    
+            <section class="card-one-row-three">
+                <div class="card-one-row-three-container">
+                    <div class="card-one-row-three-up dis-flex">
+                        <div class="card-one-row-three-up-left">top selling categories</div>
+                        <div class="card-one-row-three-up-right">sort by <i class='bx bxs-chevron-down'></i></div>
+                    </div>
+                    <div class="chart-three-container dis-flex">
+                        <img src="/src/assets/images/chart-images/chart-three.png" alt="" class="chart-three">
+                    </div>
+                </div>
+                <div class="row-three">
+                    <ul class="row-three-list-container"> 
+                        <div class="row-three-list">
+                            <li class="row-three-list-one-item-container">
+                                <div class="row-three-list-item dis-flex">
+                                    <div class="row-three-list-item-left dis-flex">
+                                        <div class="row-three-disc-container">
+                                        <i class='bx bxs-circle  primary-blue-text'></i>
+                                        </div>
+                                        <div class="row-three-left">
+                                        <div class="row-three-left-up">
+                                            electronics</div>
+                                        <span class="row-three-left-down">increased by
+                                            <span class="row-three-left-down-span">0.64<i class='bx bx-trending-up'></i></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <div class="row-three-list-item-right dis-flex">
+                                        <span class="row-three-right-up">1,754</span>
+                                        <span class="row-three-right-down">sales</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="row-three-list-one-item-container">
+                                <div class="row-three-list-item dis-flex">
+                                    <div class="row-three-list-item-left dis-flex">
+                                        <div class="row-three-disc-container">
+                                        <i class='bx bxs-circle primary-red'></i>
+                                        </div>
+                                        <div class="row-three-left">
+                                        <div class="row-three-left-up">
+                                            accessories</div>
+                                        <span class="row-three-left-down ">decreased by
+                                            <span class="row-three-left-down-span down-trend">2.75<i class='bx bx-trending-down'></i></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <div class="row-three-list-item-right dis-flex">
+                                        <span class="row-three-right-up">1,234</span>
+                                        <span class="row-three-right-down">sales</span>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li class="row-three-list-one-item-container">
+                                <div class="row-three-list-item dis-flex">
+                                    <div class="row-three-list-item-left dis-flex">
+                                        <div class="row-three-disc-container">
+                                        <i class='bx bxs-circle primary-green'></i>
+                                        </div>
+                                        <div class="row-three-left">
+                                        <div class="row-three-left-up">
+                                            home appliances</div>
+                                        <span class="row-three-left-down">increased by
+                                            <span class="row-three-left-down-span">1.54<i class='bx bx-trending-up'></i></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <div class="row-three-list-item-right dis-flex">
+                                        <span class="row-three-right-up">878</span>
+                                        <span class="row-three-right-down">sales</span>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li class="row-three-list-one-item-container">
+                                <div class="row-three-list-item dis-flex">
+                                    <div class="row-three-list-item-left dis-flex">
+                                        <div class="row-three-disc-container">
+                                            <i class='bx bxs-circle secondary-blue-text'></i>
+                                        </div>
+                                        <div class="row-three-left">
+                                        <div class="row-three-left-up">
+                                            beauty products
+                                        </div>
+                                        <span class="row-three-left-down">increased by
+                                            <span class="row-three-left-down-span">1.54<i class='bx bx-trending-up'></i></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <div class="row-three-list-item-right dis-flex">
+                                        <span class="row-three-right-up">1754</span>
+                                        <span class="row-three-right-down">sales</span>
+                                    </div>
+                                </div>
+                            </li> 
+                            <li class="row-three-list-one-item-container">
+                                <div class="row-three-list-item dis-flex">
+                                    <div class="row-three-list-item-left dis-flex">
+                                        <div class="row-three-disc-container">
+                                            <i class='bx bxs-circle primary-orange-text'></i>
+                                        </div>
+                                        <div class="row-three-left">
+                                        <div class="row-three-left-up">
+                                            furniture</div>
+                                        <span class="row-three-left-down ">decreased by
+                                            <span class="row-three-left-down-span down-trend">0.64<i class='bx bx-trending-down'></i></span>
+                                        </span>
+                                    </div>
+                                    </div>
+                                    <div class="row-three-list-item-right dis-flex">
+                                        <span class="row-three-right-up">1754</span>
+                                        <span class="row-three-right-down">sales</span>
+                                    </div>
+                                </div>
+                            </li> 
+                        </div>
+                    </ul>
+                </div>
+            </section>
+            <!-- chart row four -->
+            <section class="card-one-row-four">
+                <div class="card-one-row-four-container">
+                    <div class="card-one-row-four-up">
+                        <div class="card-one-row-four-up-left">country wise sale</div>
+                    </div>
+                    <div class="row-four-card-body">
+                        <ul class="row-four-list-container">
+                            <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/us_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div>  
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">United States</span>
+                                            <span class="row-four-left-down">32,190 Sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$32,190</span>
+                                        <span class="row-four-right-down"><i class='bx bx-up-arrow-alt'></i></i>0.27%</span> 
+                                    </div> 
+                                </div>
+                            </li>
+                            <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/germany_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div> 
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">germany</span>
+                                            <span class="row-four-left-down">8,798 sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$29,234</span>
+                                        <span class="row-four-right-down"><i class='bx bx-up-arrow-alt'></i></i>0.12%</span> 
+                                    </div> 
+                                </div>
+                            </li>
+                            <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/mexico_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div> 
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">mexico</span>
+                                            <span class="row-four-left-down">16,885 sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$26,166</span>
+                                        <span class="row-four-right-down down-trend down-sale"><i class='bx bx-down-arrow-alt'></i>0.75%</span> 
+                                    </div> 
+                                </div>
+                            </li>  <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/uae_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div> 
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">uae</span>
+                                            <span class="row-four-left-down">14,885 sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$24,263</span>
+                                        <span class="row-four-right-down"><i class='bx bx-up-arrow-alt'></i>1.45%</span> 
+                                    </div> 
+                                </div>
+                            </li>  <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/argentina_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div> 
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">argentina</span>
+                                            <span class="row-four-left-down">17,578 sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$23,897</span>
+                                        <span class="row-four-right-down"><i class='bx bx-up-arrow-alt'></i>0.36%</span> 
+                                    </div> 
+                                </div>
+                            </li>  <li class="row-four-list-item-container">
+                                <div class="row-four-container dis-flex">
+                                    <div class="row-four-left dis-flex">
+                                        <div class="row-four-image-container dis-flex">
+                                            <span class="row-four-image-item"><img src="/src/assets/images/flag-images/russia_flag.jpg" alt="" class="row-four-image"></span> 
+                                        </div> 
+                                        <div class="row-four-content-start dis-flex">
+                                            <span class="row-four-left-up">russia</span>
+                                            <span class="row-four-left-down">10,118 sales</span> 
+                                        </div>
+                                    </div>
+                                    <div class="row-four-content-end dis-flex"> 
+                                        <span class="row-four-right-up">$20,212</span>
+                                        <span class="row-four-right-down down-sale"><i class='bx bx-down-arrow-alt' ></i>0.68%</span> 
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                   
+                </div>
+              
+            </section>
+        </main>
+    </body>
+</html>

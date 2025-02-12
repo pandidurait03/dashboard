@@ -1,0 +1,99 @@
+.card-one-row-two-up {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px 15px;
+    border-bottom: 1px solid var(--primary-grey);
+}
+
+.card-one-row-two-up-left {
+    font-size: 18px;
+}
+
+.card-one-row-two-up-right {
+    color: var(--text-grey) ;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.card-one-row-two-middle {
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.card-one-row-two-middle-left,
+.card-one-row-two-middle-right {
+    background-color: var(--box-bg-grey);
+    margin: 10px;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+.card-one-row-two-name {
+    margin: 9px;
+}
+
+.card-one-row-two-left-span,
+.card-one-row-two-right-span {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.row-two-middle-name {
+    padding: 5px 0 0 10px;
+    font-size: 13px;
+    margin: 10px 0 0;
+} 
+
+.card-one-row-one-container {
+    background-color: var(--white-background);
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.card-two-row-one-container  {
+    background-color: var(--white-background);
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+
+.row-two-primary-btn-container{
+    justify-content: end;
+}
+
+.row-two-primary-btn-items {
+    margin-right: 10px;
+}
+
+.row-two-primary-btn {
+    width: 55px;
+    height: 25px;
+    background-color: var(--secondary-btn-blue);
+    border: none;
+    color: var(--primary-blue);
+    border-radius: 4px;
+}
+
+.row-two-primary-btn:hover {
+    background-color: var(--primary-blue);
+    color: var(--white-background);
+}
+
+.card-two-secondary-btn {
+    border: none;
+    width: 80px;
+    height: 25px;
+    border-radius: 2px;
+}
+
+.chart-one {
+    width: 330px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.chart-two-image {
+    width: 700px;
+    height: 330px;
+    padding: 18px;
+    margin: 20px 0 0 20px;
+}

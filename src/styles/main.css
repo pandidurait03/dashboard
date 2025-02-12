@@ -1,0 +1,82 @@
+@font-face{
+    font-family: Quicksand-font;
+    src: url(../assets/font/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Quicksand-font;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+:root {
+    --white-background: #ffffff;
+    --main-backgorund: #F5F6FA;
+    --text-grey: #838383;
+    --primary-grey: #E7E7E7;
+    --icon-grey: #878787;
+    --box-bg-grey: #f5f6fa;
+    --primary-blue: #826FFF;
+    --secondary-blue: #22B4FF;
+    --secondary-btn-blue: #E6E4FF;
+    --primary-green: #21B208;
+    --primary-orange: #FF6A00;
+    --secondary--orange: #FFAE00;
+    --primary-red: #FF0000;
+    --image-bg-circle: #F3F2F2;
+}
+
+.content-bg {
+    background-color:var(--white-background);
+}
+
+.primary-blue {
+    background-color:var(--primary-blue);
+}
+
+.primary-grey {
+    color: var(--primary-grey);
+}
+
+.primary-orange {
+    background-color: var(--primary-orange);
+}
+
+.pimary-green {
+    background-color: var(--primary-green);
+}
+
+.secondary-blue {
+    background-color: var(--secondary-blue);
+}
+
+.primary-red {
+    color: var(--primary-red);
+}
+
+.primary-green {
+    color: var(--primary-green);
+}
+
+.primary-blue-text {
+    color: var(--primary-blue);
+}
+
+.secondary-blue-text {
+    color: var( --secondary-blue);
+}
+
+.primary-orange-text {
+    color: var(--primary-orange);
+}
+
+.dis-flex {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}

@@ -1,0 +1,17 @@
+.primary-content-container {
+    justify-content: space-between;
+    width: 98% ;
+    padding: 12px 0 0 15px;
+    margin: 6px;
+}
+  
+.primary-greeting-text {
+    font-size: 18px;
+}
+  
+.secondary-greeting-text {
+    color: var(--text-grey);
+    opacity: 0.7;
+    font-size: 12px;
+    margin: 8px 0;  
+}

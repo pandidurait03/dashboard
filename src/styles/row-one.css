@@ -1,0 +1,76 @@
+.secondary-content-container {
+    margin: 0 14px;
+}
+  
+.secondary-container-card-one {
+    background-color: var(--white-background);
+    width: 270px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.card-one-row-one,
+.card-one-row-two,
+.secondary-content-container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-one-row-one {
+    padding: 15px;
+}
+
+.card-one-row-two {
+    margin: 0 10px 10px 13px;
+}
+  
+.bxs-shopping-bag-alt {
+    padding: 7px;
+    color: var(--white-background);
+    font-size: 20px;
+}
+
+.box-one-name {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box-one-link {
+    font-size: 11px;
+    color: var(--text-grey);
+    margin-top: 10px;
+}
+
+.box-one-percent {
+    color: var(--primary-green);
+    font-size: 12px;
+}
+
+.red-percent {
+    color: var(--primary-red);
+}
+
+.bx-up-arrow-alt {
+    margin: 10px 0 0 10px;
+}
+
+.box-one-number {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.bag-icon-card-one {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+} 
+
+.bx-dollar,
+.bx-folder,
+.bx-user {
+    padding: 5px;
+    color: var(--white-background);
+    font-size: 25px;
+    font-weight: 200;
+    border-radius: 50%;
+}
